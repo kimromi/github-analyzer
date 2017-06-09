@@ -9,14 +9,14 @@ Gem::Specification.new do |s|
   s.version     = Github::Analyzer::VERSION
   s.authors     = ["kimromi"]
   s.email       = ["kimromi4@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Github::Analyzer."
-  s.description = "TODO: Description of Github::Analyzer."
+  s.homepage    = "https://github.com/kimromi/github-analyzer"
+  s.summary     = "GitHub analyzer for Rails"
+  s.description = "GitHub analyzer for Rails"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.1.1"
+  s.add_dependency "rails", ">= 4.2.7"
 
   s.add_development_dependency "sqlite3"
 end
